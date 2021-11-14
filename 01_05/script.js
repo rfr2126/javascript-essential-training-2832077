@@ -4,7 +4,6 @@
 
 // Single line comment
 
-sdkjnf;ds
 /* Multi-line comment
 See! this line is also commented out! */
 
