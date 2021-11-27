@@ -26,5 +26,7 @@ const backpack = {
   newVolume: function (updateVolume) {
     this.volume = updateVolume;
   },
-  
+  newPocketNum: function (updatePocketNum) {
+    this.pocketNum = updatePocketNum
+  }
 };
