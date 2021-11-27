@@ -23,4 +23,8 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newVolume: function (updateVolume) {
+    this.volume = updateVolume;
+  },
+  
 };
