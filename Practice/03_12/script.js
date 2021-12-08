@@ -12,8 +12,7 @@ class iPad {
         //define parameters
         size,
         generation,
-        owner,
-        color
+        owner
     ){
     //define properties
     this.size = size;
@@ -31,4 +30,16 @@ class iPad {
     }
 }
 
-export default iPad
+export default iPad;
+
+const iPad = {
+    size: 10;
+    generation: "Third",
+    owner: "Cacau",
+    color: {
+        insideColor: "grey",
+        outsideColor: "white",
+    }
+    turnOn = "On"
+
+}
