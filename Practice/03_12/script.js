@@ -1,3 +1,6 @@
+import iPad from "../../^/untitled/Untitled-1";
+import iPad from "./iPad";
+
 /**
  * Practice: Making classes and objects
  *
@@ -7,39 +10,10 @@
  * - Test the objecs by calling their properties and using their methods in the console.
  */
 
-class iPad {
-    constructor(
-        //define parameters
-        size,
-        generation,
-        owner
-    ){
-    //define properties
-    this.size = size;
-    this.generation = generation;
-    this.owner = owner;
-    this.color = {
-        inside: insideColor,
-        outside: outsideColor, 
-    };
-    this.turnOn = turnOn;
-    }
-//Add methods like normal functions:
-    switchOn(powerStatus) {
-        this.turnOn = powerStatus;
-    }
-}
+ import iPad from "./iPad";
 
-export default iPad;
-
-const iPad = {
-    size: 10;
-    generation: "Third",
-    owner: "Cacau",
-    color: {
-        insideColor: "grey",
-        outsideColor: "white",
-    }
-    turnOn = "On"
-
-}
+ const iPad = new iPad(
+     30,
+     3,
+     "Cacau",
+ );
